@@ -1,0 +1,14 @@
+.center{
+    margin-top: 20%;
+    height: 200px;
+    text-align: center;
+}
+
+.buttom{
+    width: 165px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #01393e;
+    font-size: 18px;
+}

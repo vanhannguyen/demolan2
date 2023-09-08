@@ -1,0 +1,13 @@
+<?php
+session_start();
+unset($_SESSION['Fullname']);
+unset($_SESSION['user_id']);
+unset($_SESSION['user_phone']);
+unset($_SESSION['user_email']);
+unset($_SESSION['user_name']);
+unset($_SESSION['Introduct']);
+unset($_SESSION['Address']);
+unset($_SESSION['images']);
+unset($_SESSION['images']);
+header("Location:signin.php");
+?>
